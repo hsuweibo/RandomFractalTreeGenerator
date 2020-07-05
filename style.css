@@ -1,0 +1,31 @@
+* {
+    padding: 0;
+    margin: 0; 
+}
+
+body {
+    position: relative;
+}
+
+#cv {
+    width: 100%;
+    height: 100%;
+    background:black;
+    display: block;
+}
+
+button.generate-tree-btn {
+    display: block;
+    cursor: pointer;
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    font-size: 1.5rem;
+    border-radius: 50px;
+    padding: 1em;
+    outline: none;
+    border: none;
+    color: black;
+    background-color: brown;
+}
