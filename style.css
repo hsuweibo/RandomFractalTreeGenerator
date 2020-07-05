@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+
 * {
     padding: 0;
     margin: 0; 
@@ -26,6 +29,14 @@ button.generate-tree-btn {
     padding: 1em;
     outline: none;
     border: none;
-    color: black;
+    color:black;
     background-color: brown;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+@media (max-width: 1000px){
+    button.generate-tree-btn{
+        font-size: 0.8rem;
+    }
 }
